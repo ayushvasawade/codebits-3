@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MIRAGE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">MIRAGE</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#solution">Solution</a></li>
+                <li><a href="#presentation">Presentation</a></li>
+            </ul>
+            <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <video autoplay muted loop id="bg-video">
+            <source src="./assests/land-vid.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="overlay">
+            <h1>MIRAGE</h1>
+        </div>
+        <section class="content">
+            <p>
+                <a> MIRAGE: Revolutionizing Surgery With Augumated Reality </a>
+                <br>
+                <a> See. Train. Operate. Save Lives.</a>
+            </p>
+        </section>
+    </section>
+
+    <section class="about-us">
+        <div class="about-container">
+            <div class="about-content">
+                <h1 class="about-title">Empowering the Future of Surgery</h1>
+                <p class="about-description">
+                    At <strong>MIRAGE</strong>, we blend cutting-edge technology with innovation to revolutionize
+                    medical procedures.
+                    Our advanced Augmented Reality solutions enhance surgical precision, training, and visualization,
+                    empowering healthcare professionals to save lives with confidence.
+                </p>
+                <div class="about-features">
+                    <div class="feature">
+                        <span class="feature-icon">🔬</span>
+                        <h3 class="feature-title">Precision</h3>
+                        <p class="feature-text">Enhance surgical accuracy with real-time AR guidance.</p>
+                    </div>
+                    <div class="feature">
+                        <span class="feature-icon">🎓</span>
+                        <h3 class="feature-title">Training</h3>
+                        <p class="feature-text">Revolutionize medical training with immersive AR simulations.</p>
+                    </div>
+                    <div class="feature">
+                        <span class="feature-icon">💡</span>
+                        <h3 class="feature-title">Innovation</h3>
+                        <p class="feature-text">Pioneering next-gen MedTech solutions for a better future.</p>
+                    </div>
+                </div>
+                <button class="btn-learn-more">Explore Our Solutions</button>
+            </div>
+            <div class="about-image">
+                <img src="./assests/logo.jpg">
+            </div>
+        </div>
+    </section>
+
+    <section class="solution" id="solution">
+        <header class="section-title">
+            <span class="tagline">MedTech</span>
+            <h2>Life Saving Innovation</h2>
+            <p>
+                Surgical precision can mean the difference between life and death. Mirange brings Augmented Reality (AR)
+                to medical training and surgery, allowing doctors to visualize practice and perform procedures with
+                accuray like never before.
+            </p>
+        </header>
+        <div class="solution-cards ">
+            <article class="card">
+                <img src="./assests/dental.jpg" alt="" />
+                <h3>DENTAL <br> Resources</h3>
+                <a href="https://adobeaero.app.link/Hlrfo105vRb">View</a>
+            </article>
+            <article class="card">
+                <img src="./assests/QR-image.png" alt="" />
+                <h3>Muscle <br> Human Anatomy</h3>
+                <a href="https://adobeaero.app.link/4OveeS7eGOb">View</a>
+            </article>
+            <article class="card">
+                <img src="./assests/polycystic kidney .jpg" alt=" " />
+                <h3>POLYCYSTIC KIDNEY<br></h3>
+                <a href="https://adobeaero.app.link/jdxB602dUHb">View</a>
+            </article>
+            <article class="card">
+                <img src="./assests/TAPDV.jpg" alt="" />
+                <h3>Total Anomalous Pulmonary Venous Drainage<br> (TAPVD)</h3>
+                <a href="https://adobeaero.app.link/lDMOv6AZFOb">View</a>
+            </article>
+        </div>
+    </section>
+
+    <section class="arvr-theme">
+        <div class="container">
+            <div class="video-wrapper">
+                <video id="arvr-video" controls>
+                    <source src="./assests/dental.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="info-wrapper">
+                <h2>Dental Resources</h2>
+                <h3>Key Features</h3>
+                <p>
+                    1. Global Anchoring.<br>
+                    2. Multilingual Support.<br>
+                    3. Precise detailing ..
+                </p>
+            </div>
+        </div>
+        <br>
+        <div class="container">
+            <div class="video-wrapper">
+                <video id="arvr-video" controls>
+                    <source src="./assests/foot_anatomy.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="info-wrapper">
+                <h2> Foot Anatomy</h2>
+                <h3>Key Features</h3>
+                <p>
+                    1. Accurate placement of muscles and tendons.<br>
+                    2. Shared among devices for collaborated work .
+                    3. Digital Indexing .<br>
+
+                </p>
+            </div>
+        </div>
+    </section>
+
+    </section>
+
+    <section class="presentation" id="presentation">
+        <div class="comparison-wrapper">
+            <div class="video-points-container">
+                <div class="horizontal-videos">
+                    <video autoplay muted loop>
+                        <source src="./assests/skull-structure.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <video autoplay muted loop>
+                        <source src="./assests/organs-structure.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <video autoplay muted loop>
+                        <source src="./assests/heart-structure.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <video autoplay muted loop>
+                        <source src="./assests/kidney-structure.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <section class="footer-links">
+            <div class="footer-column">
+                <img src="assests/logo.jpg" alt="Company Logo" />
+            </div>
+            <div class="footer-column">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Our Services</a></li>
+                    <li><a href="#">Blog Posts</a></li>
+                    <li><a href="#">FAQs</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Resources</h4>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Use</a></li>
+                    <li><a href="#">User Guide</a></li>
+                    <li><a href="#">Support Center</a></li>
+                    <li><a href="#">Sustainability Tips</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Follow Us</h4>
+                <ul class="social-links">
+
+                    <li>
+                        <a href="https://www.twitter.com" target="_blank">
+                            <img src="assests/twitter.jpeg" alt="Twitter" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com" target="_blank">
+                            <img src="assests/instagram.png" alt="Instagram" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com" target="_blank">
+                            <img src="assests/linkedin.webp" alt="LinkedIn" />
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Contact Info</h4>
+                <ul>
+                    <li><a href="#">Email Us</a></li>
+                    <li><a href="#">Call Us</a></li>
+                    <li><a href="#">Visit Us</a></li>
+                    <li><a href="#">Feedback Form</a></li>
+                    <li><a href="#">Help Center</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="footer-bottom">
+            <div class="credits">
+                <p>© 2024 MIRAGE. All rights reserved.</p>
+                <div class="legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Cookie Settings</a>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script defer src="script.js"></script>
+</body>
+
+</html>
